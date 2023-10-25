@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 
 }
 .header_content{
@@ -41,39 +42,52 @@ body{
     background: none;
     
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:382px) {
     .header_content_logo{
-        display: none;
+        flex-direction: row-reverse;
         
     }
 }
+.hero{
+     opacity: 11;
+     background: url(https://s3-alpha-sig.figma.com/img/a397/4a28/0dc63d9ccd142ecdbf799689440dc6be?Expires=1699228800&Signature=VnNYmyeSFRuKK-mzpgzPcB5B6glemiyCnHheN56uloAa5Stco5UI9Ilc2g7~KTc2tfY8FJQxIGIBAW2U5P2RRzsFHmiffCChXH~g7UNbE8hYs-YjBFJsRxmEyBgEWTQaLvloO0-1QarxB6g3n1n2S2TkUmEllBZslS6BvCcV1ADyP0DhpPKbhD3dh2hsM~q3YXDzIZ~2fEUbzWEnXiakx2QtXlGG-H6ir8CE6u8KZAZpAl7L1riW~ogYnhLURT0spc2Q7JL4m737--1NSMrw6pTBIaiJICYaxbWf3h6vhcGOQyLsimIFnNqYrq80zg~JbItxG5UCUVpsH9OSXLU10w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)center/cover, rgb(14, 9, 9) 0px 0px / 100% 100% no-repeat;
+    height: 100vh; 
+    }
 
 .hero_title{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
 }
 .hero_title-text{
-    color: #000;
+    color: #fff;
     text-align: center;
     font-family: Montserrat;
     font-size: 52px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: auto;
+    padding: 200px 0 0;
+    
+
+
 }
 .hero_title-text1{
-    color: #434343;
+    color: #F7F3F2;
     text-align: center;
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 300;
     line-height: 24.5px; 
+    margin: 0;
+    padding: 20px 50px;
 }
 .hero_title-button{
-    color: #000;
+    color: #fff;
     text-align: center;
     font-family: Montserrat;
     font-size: 14px;
@@ -88,3 +102,54 @@ body{
     flex-shrink: 0;
 }
 
+
+@media screen and (max-width:940px) {
+    .hero_title-text{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:818px) {
+    .hero_title-text{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width:730px){
+    .hero_title-text{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:639px) {
+    .hero_title-text{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:560px) {
+    .hero_title-text{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:468px) {
+    .hero_title-text{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:458px) {
+    .hero_title-text{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:380px){
+    .hero_title-text1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:429px){
+    .hero_title-text1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:380px){
+    .hero_title-button{
+        width: 310px;
+    }
+}
