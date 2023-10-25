@@ -168,3 +168,158 @@ body{
     line-height: normal;
     padding: 40px 0;
 }
+.how_cards{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.how_card{
+max-width: 500px;
+height: 500px;
+position: relative;
+}
+.how_img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 10px;
+}
+.how_title{
+    position: absolute;
+    bottom: 20px;
+    max-width: 100%;
+    padding: 0 20px;
+}
+.how_button1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: #FF4E50;
+    border-color: #FF4E50;
+}
+.how_text1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+.how_text2{
+    color: #E3E3E3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px; 
+}
+.how_card2{
+    max-width: 500px;
+    height: 500px;
+    position: relative;
+    }
+    .how_img2{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 10px;
+    }
+    .how_title2{
+        position: absolute;
+        bottom: 20px;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .how_button2{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: #FF4E50;
+        border-color: #FF4E50;
+    }
+    .how_text3{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; 
+    }
+    .how_text4{
+        color: #E3E3E3;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 16px; 
+    }
+    .how_card3{
+        max-width: 500px;
+        height: 500px;
+        position: relative;
+        }
+        .how_img3{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         border-radius: 10px;
+        }
+        .how_title3{
+            position: absolute;
+            bottom: 20px;
+            max-width: 100%;
+            padding: 0 20px;
+        }
+        .how_button3{
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            border-radius: 40px;
+            background: #FF4E50;
+            border-color: #FF4E50;
+        }
+        .how_text5{
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px; 
+        }
+        .how_text6{
+            color: #E3E3E3;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 16px; 
+        }
+        @media screen and (max-width:1190px) {
+            .how_cards{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media screen and (max-width:1044px) {
+            .how_cards{
+                grid-template-columns: 1fr;
+            }
+        }
+    
