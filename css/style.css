@@ -153,3 +153,18 @@ body{
         width: 310px;
     }
 }
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px 0;
+}
