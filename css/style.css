@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto',sans-serif;
     margin: 0;
 
 }
@@ -320,6 +321,60 @@ position: relative;
         @media screen and (max-width:1044px) {
             .how_cards{
                 grid-template-columns: 1fr;
-            }
+       }
         }
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .title_text{
+            color: #444;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: 30px;
+            margin: 0;
+        }
+        .avatar_cards{
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            list-style: none;
+            
+        }
+        .avatar_img{
+            max-width: 150px;
+            height: 150px;
+            border-radius: 200px;
+        
+        }
+
+        
+        .avatar_text{
+            color: #666;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .avatar_text2{
+            color: #444;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 1px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 18px; 
+        }
+        
     
