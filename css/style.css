@@ -4,6 +4,11 @@ body{
     margin: 0;
 
 }
+.container{
+    max-width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
 .header_content{
     display: flex;
     align-items: center;
@@ -336,7 +341,7 @@ position: relative;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            padding: 30px;
+            padding: 90px;
             margin: 0;
         }
         .avatar_cards{
@@ -349,32 +354,36 @@ position: relative;
             gap: 20px;
             list-style: none;
             
+        }     
+        @media screen and (max-width:1044px) {
+            .avatar_cards{
+                grid-template-columns: 1fr 1fr;
+            }
+        }   
+        @media screen and (max-width:489px){
+            .avatar_cards{
+                grid-template-columns: 1fr;
+            }
         }
-        .avatar_img{
-            max-width: 150px;
-            height: 150px;
-            border-radius: 200px;
-        
+        .title2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 0 ;
         }
-
-        
-        .avatar_text{
-            color: #666;
-            text-align: center;
+        .text2{
+            color: #FF4E50;
             font-family: Montserrat;
             font-size: 14px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+            border-radius: 40px;
+            border: 2px solid #FF4E50;
+            background: #FFF;
+            width: 180px;
+            height: 40px;
+            flex-shrink: 0;
         }
-        .avatar_text2{
-            color: #444;
-            text-align: center;
-            font-family: Roboto;
-            font-size: 1px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 18px; 
-        }
+
         
-    
