@@ -2,6 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto',sans-serif;
     margin: 0;
+    
 
 }
 .container{
@@ -12,7 +13,7 @@ body{
 .header_content{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .header_content_logo{
     color: #000;
@@ -56,7 +57,7 @@ body{
 }
 .hero{
      opacity: 11;
-     background: url(https://s3-alpha-sig.figma.com/img/a397/4a28/0dc63d9ccd142ecdbf799689440dc6be?Expires=1699228800&Signature=VnNYmyeSFRuKK-mzpgzPcB5B6glemiyCnHheN56uloAa5Stco5UI9Ilc2g7~KTc2tfY8FJQxIGIBAW2U5P2RRzsFHmiffCChXH~g7UNbE8hYs-YjBFJsRxmEyBgEWTQaLvloO0-1QarxB6g3n1n2S2TkUmEllBZslS6BvCcV1ADyP0DhpPKbhD3dh2hsM~q3YXDzIZ~2fEUbzWEnXiakx2QtXlGG-H6ir8CE6u8KZAZpAl7L1riW~ogYnhLURT0spc2Q7JL4m737--1NSMrw6pTBIaiJICYaxbWf3h6vhcGOQyLsimIFnNqYrq80zg~JbItxG5UCUVpsH9OSXLU10w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)center/cover, rgb(14, 9, 9) 0px 0px / 100% 100% no-repeat;
+     background: url(https://s3-alpha-sig.figma.com/img/a397/4a28/0dc63d9ccd142ecdbf799689440dc6be?Expires=1699228800&Signature=VnNYmyeSFRuKK-mzpgzPcB5B6glemiyCnHheN56uloAa5Stco5UI9Ilc2g7~KTc2tfY8FJQxIGIBAW2U5P2RRzsFHmiffCChXH~g7UNbE8hYs-YjBFJsRxmEyBgEWTQaLvloO0-1QarxB6g3n1n2S2TkUmEllBZslS6BvCcV1ADyP0DhpPKbhD3dh2hsM~q3YXDzIZ~2fEUbzWEnXiakx2QtXlGG-H6ir8CE6u8KZAZpAl7L1riW~ogYnhLURT0spc2Q7JL4m737--1NSMrw6pTBIaiJICYaxbWf3h6vhcGOQyLsimIFnNqYrq80zg~JbItxG5UCUVpsH9OSXLU10w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)center/cover;
     height: 100vh; 
     }
 
@@ -495,6 +496,7 @@ position: relative;
         .cards_img6{
             position: relative;
             grid-area: 3/3;
+            max-height: 350px;
         }
         .img_text6{
             position: absolute;
@@ -527,5 +529,108 @@ position: relative;
             font-weight: 700;
             line-height: normal;
         }
+        @media screen and (max-width:1620px) {
+            .cards{
+                grid-template-columns:1fr  ;
+            }
+            @media screen and (max-width:1160px){
+                .cards{
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+        .title3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .title_text3{
+            color: #444;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: 70px 0 43px;
+        }
+        .title_text4{
+            color: #666;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 14px;
+        }  
+        .title_button-text{
+            width: 299px;
+            height: 40px;
+            flex-shrink: 0;
+            border-radius: 3px;
+            border: 1px solid #D4D4D4;
+            background: #FFF;
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07);
+            color: #999;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .title_button-text2{
+            width: 172.125px;
+            height: 40px;
+            flex-shrink: 0;
+            border-radius: 40px;
+            background: #FF4E50;
+            border-color: #FF4E50;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .first{
+            background: #FF4E50;
+        }
+        .footer_blok{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .footer_blok-title{
+            color: #FF4E50;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+        .footer_blok-title2{
+            color: #444;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .footer_blok_nav{
+            
+        }
+        .footer_blok_nav-link{
+            color: #999;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 26px;
+            text-decoration: none; 
+        }
+
+
 
         
